@@ -1,2 +1,2 @@
 ﻿# Playwright_JS
-# npx playwright test <spec file name> --headed
+npx playwright test <spec file name> --headed
