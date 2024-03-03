@@ -15,4 +15,9 @@ Points to remember:
 -------------------------------
 Fixtures: there are 4 fixtures in playwright
 1. browser: It opens a new browser instance with fixed context. we can give our own context as per requirement.
-2. page: 
+2. page:
+
+
+
+-------------------------------
+1. If you want to run only one test/some tests among multiple tests in a spec file, you can mention test.only('test name', async ({browser})=>{"your code here"});. It will run those sepcific tests
